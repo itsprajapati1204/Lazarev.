@@ -99,6 +99,6 @@ function page3VideoAnimation() {
 
 
 
-navAnimation();
+// navAnimation();
 page2Animation();
 page3VideoAnimation();

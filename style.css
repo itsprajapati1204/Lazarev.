@@ -144,6 +144,7 @@ nav button svg {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
+
 #moving-div .move img {
   height: 1.8vw;
   margin: 0 1vw;
@@ -448,17 +449,52 @@ nav button svg {
   position: relative;
 }
 
-.sec-right img{
+.sec-right img {
   height: 100%;
-  width:100%;
+  width: 100%;
   object-fit: cover;
 }
-.sec-right video{
+.sec-right video {
   height: 100%;
-  width:100%;
+  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
   object-fit: cover;
   opacity: 0;
+}
+#page6{
+  min-height: 100vh;
+  width: 100%;
+  background-color: #111;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 18vh 8.5vw;
+}
+
+#page6 button{
+  background-color: #0ba34e;
+  padding: 1.2vw 3vw;
+  font-size:1vw ;
+  font-weight: 600;
+  border-radius: 50px;
+  border: none;
+  text-transform: uppercase;
+}
+#page6 button i{
+  font-size: 1.3vw;
+}
+.page6-right{
+  width: 73%;
+}
+.page6-right p{
+  font-size: 2.5vw;
+  font-weight: 500;
+
+}
+.page6-right p span{
+  font-size: 1vw;
+  margin-right: 12vw;
 }
