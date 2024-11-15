@@ -107,11 +107,15 @@ nav button {
   display: flex;
   align-items: center;
   padding: 13px 20px;
-  font-size: 0.85vw;
+  
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 50px;
   border: none;
+}
+nav button a{
+  font-size: 0.85vw;
+  text-decoration: none;
 }
 nav button svg {
   height: 0.8vw;
