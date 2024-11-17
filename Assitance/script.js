@@ -48,6 +48,12 @@ function takeCommand(message){
     }
     else if(message.includes("who are you")){
         speak("i am your virtual assistant ,Max")
+    }
+    else if(message.includes("who created you")){
+        speak("i am created by Shubham Sir")
+    }
+    else if(message.includes("what are your specification")){
+        speak("i am your virtual assistant i am search what you want just tell me topic directly")
     }else if(message.includes("open youtube")){
         speak("opening youtube...")
         window.open("https://youtube.com/","_blank")
