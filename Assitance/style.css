@@ -29,7 +29,15 @@ body {
   overflow-x: hidden;
 }
 ::-webkit-scrollbar {
-  display: none;
+  width: 0.2vw;
+}
+::-webkit-scrollbar-track {
+  background: #333;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #007d36;
+  border-radius: 20px;
+  border: 3px solid #007d36;
 }
 .robote {
   height: 70vh;
@@ -71,7 +79,7 @@ h1 {
 
 #voice {
   margin-top: 10px;
-  width: 100px;
+  width: 150px;
   display: none;
 }
 h1 span {
@@ -130,4 +138,8 @@ h2 {
   border-radius: 50%;
   padding: 5px;
   cursor: pointer;
+}
+
+#full h4 a{
+  text-decoration: none;
 }
