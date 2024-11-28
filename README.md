@@ -18,7 +18,7 @@ To run this project locally, follow these steps:
 
 <b>Clone the Repository:</b>
 
-git clone https://github.com/your-username/lazarev-clone.git
+git clone https://github.com/itsprajapati1204/Lazarev..git
 Navigate to the Project Directory:
 
 cd lazarev-clone
